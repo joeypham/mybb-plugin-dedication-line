@@ -2,7 +2,6 @@
 
 **Version:** 1.0  
 **Author:** [JLP423](https://mybb.vn)  
-**License:** MIT  
 **Compatibility:** MyBB 1.8.x (tested on PHP 8.4+)
 
 ---
@@ -60,10 +59,8 @@ For example, you can add it to the `index`, `header`, or even a custom portal te
 ## 🧱 Technical Notes
 
 - Fully compatible with **PHP 8.4+**  
-- Uses **InnoDB**, **utf8mb4**, and indexed columns for performance  
 - Cleanup runs automatically once per day (throttled)  
-- Templates install globally (`sid = -2`)  
-- Clean uninstall removes tables, templates, and settings  
+- Fully editable options in ACP
 
 ---
 
@@ -82,4 +79,3 @@ For example, you can add it to the `index`, `header`, or even a custom portal te
 
 **JLP423**  
 🌐 [https://mybb.vn](https://mybb.vn)  
-📧 support@mybb.vn
